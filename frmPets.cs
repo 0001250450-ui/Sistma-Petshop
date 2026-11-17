@@ -23,7 +23,7 @@ public partial class frmPets : Form
 
     private void btnCadastrar_Click(object sender, EventArgs e)
     {
-        // REGRA DE NEGÓCIO: Pet deve estar associado a um cliente[cite: 4]
+        // REGRA DE NEGÓCIO: Pet deve estar associado a um cliente
         if (cmbClientes.SelectedValue == null)
         {
             MessageBox.Show("Selecione um cliente válido para associar ao Pet!", "Regra de Negócio", MessageBoxButtons.OK, MessageBoxIcon.Warning);
